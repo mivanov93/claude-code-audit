@@ -1,0 +1,13 @@
+# Private material — never commit.
+# private/ holds the agent-field-notes sanitization plan (lists the exact
+# terms scrubbed for public release) and the unredacted PRECLEAN backup repo.
+private/
+
+# Audit outputs and the machine-specific report: full command history,
+# hostnames, IPs, process lists.
+output/
+REPORT.md
+__pycache__/
+
+# IDE metadata
+.idea/
